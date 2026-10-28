@@ -1,0 +1,41 @@
+{
+  "version": "2.2.0",
+  "host": "EffectCraft 0.17.0 / wasmi",
+  "all17ModulesRegistered": true,
+  "categories": {
+    "Marsel Prism": 13,
+    "Marsel Motion": 4
+  },
+  "currentJpegNativeQualities": [
+    100,
+    75,
+    50,
+    25,
+    10,
+    1
+  ],
+  "jpegReport": "jpeg-validation.json",
+  "priorFullRenderRegression": {
+    "version": "2.1.0",
+    "host": "EffectCraft 0.17.0 / wasmi",
+    "effectsRendered": 17,
+    "filmcraftPresetsImported": 17,
+    "animation": {
+      "camera": {
+        "frames": 9,
+        "distinctFrames": 9,
+        "timeZeroMatchesOriginal": true
+      },
+      "shake": {
+        "frames": 9,
+        "distinctFrames": 9,
+        "timeZeroMatchesOriginal": true
+      },
+      "newEffectDetectedByScheduler": true
+    },
+    "boundsHelper": {
+      "managedGrowBoundsCreated": true,
+      "secondScanDidNotDuplicate": true
+    }
+  }
+}

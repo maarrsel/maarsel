@@ -1,0 +1,126 @@
+{
+  "version": "2.2.0",
+  "runtime": "v24.22.1",
+  "tests": [
+    {
+      "effect": "Marsel Anamorphic Streak",
+      "parameters": 5,
+      "flatParameters": 5,
+      "passed": true,
+      "render640x360Ms": 82
+    },
+    {
+      "effect": "Marsel Bloom",
+      "parameters": 5,
+      "flatParameters": 5,
+      "passed": true,
+      "render640x360Ms": 51
+    },
+    {
+      "effect": "Marsel Blur",
+      "parameters": 8,
+      "flatParameters": 8,
+      "passed": true,
+      "render640x360Ms": 52
+    },
+    {
+      "effect": "Marsel Color Correction",
+      "parameters": 19,
+      "flatParameters": 25,
+      "passed": true,
+      "render640x360Ms": 9
+    },
+    {
+      "effect": "Marsel Deep Glow",
+      "parameters": 15,
+      "flatParameters": 21,
+      "passed": true,
+      "render640x360Ms": 103
+    },
+    {
+      "effect": "Marsel Drop Shadow",
+      "parameters": 15,
+      "flatParameters": 21,
+      "passed": true,
+      "render640x360Ms": 30
+    },
+    {
+      "effect": "Marsel Edge Glow",
+      "parameters": 9,
+      "flatParameters": 15,
+      "passed": true,
+      "render640x360Ms": 60
+    },
+    {
+      "effect": "Marsel Film Grain",
+      "parameters": 8,
+      "flatParameters": 8,
+      "passed": true,
+      "render640x360Ms": 7
+    },
+    {
+      "effect": "Marsel JPEG Damage",
+      "parameters": 8,
+      "flatParameters": 8,
+      "passed": true,
+      "render640x360Ms": 33
+    },
+    {
+      "effect": "Marsel Pixelate",
+      "parameters": 9,
+      "flatParameters": 9,
+      "passed": true,
+      "render640x360Ms": 6
+    },
+    {
+      "effect": "Marsel RGB Split",
+      "parameters": 20,
+      "flatParameters": 29,
+      "passed": true,
+      "render640x360Ms": 51
+    },
+    {
+      "effect": "Marsel Selective Light",
+      "parameters": 19,
+      "flatParameters": 25,
+      "passed": true,
+      "render640x360Ms": 12
+    },
+    {
+      "effect": "Marsel Vignette",
+      "parameters": 10,
+      "flatParameters": 13,
+      "passed": true,
+      "render640x360Ms": 7
+    },
+    {
+      "effect": "Marsel Camera Shake",
+      "parameters": 17,
+      "flatParameters": 17,
+      "passed": true,
+      "render640x360Ms": 20
+    },
+    {
+      "effect": "Marsel Flash",
+      "parameters": 18,
+      "flatParameters": 21,
+      "passed": true,
+      "render640x360Ms": 5
+    },
+    {
+      "effect": "Marsel Fragment Glitch",
+      "parameters": 16,
+      "flatParameters": 16,
+      "passed": true,
+      "render640x360Ms": 31
+    },
+    {
+      "effect": "Marsel Shake",
+      "parameters": 19,
+      "flatParameters": 19,
+      "passed": true,
+      "render640x360Ms": 20
+    }
+  ],
+  "hostIntegration": "separate host tests"
+}

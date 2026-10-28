@@ -1,0 +1,38 @@
+{
+  "version": "2.2.0",
+  "runtime": "Installed EffectCraft 0.17.0 / wasmi",
+  "all17ModulesRegistered": true,
+  "measurements": [
+    {
+      "quality": 100,
+      "meanSquaredPixelError": 0.0,
+      "PSNRdB": null
+    },
+    {
+      "quality": 75,
+      "meanSquaredPixelError": 10.687,
+      "PSNRdB": 37.84
+    },
+    {
+      "quality": 50,
+      "meanSquaredPixelError": 25.1573,
+      "PSNRdB": 34.12
+    },
+    {
+      "quality": 25,
+      "meanSquaredPixelError": 62.6782,
+      "PSNRdB": 30.16
+    },
+    {
+      "quality": 10,
+      "meanSquaredPixelError": 204.5144,
+      "PSNRdB": 25.02
+    },
+    {
+      "quality": 1,
+      "meanSquaredPixelError": 1436.1658,
+      "PSNRdB": 16.56
+    }
+  ],
+  "sameInstanceSlider100To1To100Passed": true
+}

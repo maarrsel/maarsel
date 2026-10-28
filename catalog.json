@@ -1,0 +1,2265 @@
+[
+  {
+    "mode": 1,
+    "pack": "Marsel Prism",
+    "slug": "streak",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.move.streak",
+      "name": "Marsel Anamorphic Streak",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Horizontal Gaussian highlight streak.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (%)",
+          "type": "slider",
+          "default": 150,
+          "min": 0,
+          "max": 400,
+          "decimals": 2
+        },
+        {
+          "id": "radius",
+          "name": "Glow Radius (px)",
+          "type": "slider",
+          "default": 60,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "threshold",
+          "name": "Threshold (%)",
+          "type": "slider",
+          "default": 65,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "edges",
+          "name": "Edges",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Repeat",
+            "Mirror",
+            "Transparent"
+          ]
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 0,
+    "pack": "Marsel Prism",
+    "slug": "bloom",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.move.bloom",
+      "name": "Marsel Bloom",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Soft thresholded Gaussian highlight bloom.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 400,
+          "decimals": 2
+        },
+        {
+          "id": "radius",
+          "name": "Glow Radius (px)",
+          "type": "slider",
+          "default": 12,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "threshold",
+          "name": "Threshold (%)",
+          "type": "slider",
+          "default": 60,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "edges",
+          "name": "Edges",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Repeat",
+            "Mirror",
+            "Transparent"
+          ]
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 10,
+    "pack": "Marsel Prism",
+    "slug": "blur",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.blur",
+      "name": "Marsel Blur",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Anisotropic Gaussian, box or directional blur, with alpha, quality and edge controls.",
+      "params": [
+        {
+          "id": "blur_type",
+          "name": "Blur Type",
+          "type": "popup",
+          "default": 0,
+          "options": [
+            "Gaussian",
+            "Box",
+            "Directional"
+          ]
+        },
+        {
+          "id": "radius_x",
+          "name": "Horizontal Radius / Sigma (px)",
+          "type": "slider",
+          "default": 8,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "radius_y",
+          "name": "Vertical Radius / Sigma (px)",
+          "type": "slider",
+          "default": 8,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "angle",
+          "name": "Direction (degrees)",
+          "type": "slider",
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "decimals": 2
+        },
+        {
+          "id": "quality",
+          "name": "Quality",
+          "type": "popup",
+          "default": 2,
+          "options": [
+            "Fast",
+            "Balanced",
+            "High"
+          ]
+        },
+        {
+          "id": "blur_alpha",
+          "name": "Blur Alpha",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "edges",
+          "name": "Edges",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Repeat",
+            "Mirror",
+            "Transparent"
+          ]
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 9,
+    "pack": "Marsel Prism",
+    "slug": "color-correction",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.color-correction",
+      "name": "Marsel Color Correction",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Exposure, brightness, contrast, gamma, shadows, highlights, saturation and colour balance.",
+      "params": [
+        {
+          "id": "exposure",
+          "name": "Exposure (stops)",
+          "type": "slider",
+          "default": 0,
+          "min": -8,
+          "max": 8,
+          "decimals": 2
+        },
+        {
+          "id": "brightness",
+          "name": "Brightness",
+          "type": "slider",
+          "default": 0,
+          "min": -100,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "contrast",
+          "name": "Contrast (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "gamma",
+          "name": "Gamma",
+          "type": "slider",
+          "default": 1,
+          "min": 0.1,
+          "max": 5,
+          "decimals": 2
+        },
+        {
+          "id": "shadows",
+          "name": "Shadows",
+          "type": "slider",
+          "default": 0,
+          "min": -100,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "highlights",
+          "name": "Highlights",
+          "type": "slider",
+          "default": 0,
+          "min": -100,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "saturation",
+          "name": "Saturation (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "vibrance",
+          "name": "Vibrance",
+          "type": "slider",
+          "default": 0,
+          "min": -100,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "type": "slider",
+          "default": 0,
+          "min": -100,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "tint",
+          "name": "Tint",
+          "type": "slider",
+          "default": 0,
+          "min": -100,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "red_gain",
+          "name": "Red Gain (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "green_gain",
+          "name": "Green Gain (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "blue_gain",
+          "name": "Blue Gain (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "shadow_color",
+          "name": "Shadow Tint Colour",
+          "type": "color",
+          "default": [
+            0.15,
+            0.35,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "shadow_tint",
+          "name": "Shadow Tint Amount (%)",
+          "type": "slider",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "highlight_color",
+          "name": "Highlight Tint Colour",
+          "type": "color",
+          "default": [
+            1,
+            0.65,
+            0.3,
+            1
+          ]
+        },
+        {
+          "id": "highlight_tint",
+          "name": "Highlight Tint Amount (%)",
+          "type": "slider",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "clip",
+          "name": "Clamp to SDR Range",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 17,
+    "pack": "Marsel Prism",
+    "slug": "deep-glow",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.deep-glow",
+      "name": "Marsel Deep Glow",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Multi-scale coloured glow with a long halo; original implementation, not the commercial Deep Glow plugin.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Glow Intensity (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 400,
+          "decimals": 2
+        },
+        {
+          "id": "radius",
+          "name": "Radius (px)",
+          "type": "slider",
+          "default": 40,
+          "min": 0,
+          "max": 400,
+          "decimals": 2
+        },
+        {
+          "id": "exposure",
+          "name": "Exposure (stops)",
+          "type": "slider",
+          "default": 2,
+          "min": -5,
+          "max": 8,
+          "decimals": 2
+        },
+        {
+          "id": "threshold",
+          "name": "Threshold (%)",
+          "type": "slider",
+          "default": 35,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "knee",
+          "name": "Threshold Softness (%)",
+          "type": "slider",
+          "default": 30,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "falloff",
+          "name": "Halo Falloff",
+          "type": "slider",
+          "default": 1.4,
+          "min": 0.2,
+          "max": 4,
+          "decimals": 2
+        },
+        {
+          "id": "saturation",
+          "name": "Glow Saturation (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "tint_amount",
+          "name": "Tint Amount (%)",
+          "type": "slider",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "inner_color",
+          "name": "Inner Glow Colour",
+          "type": "color",
+          "default": [
+            1,
+            0.9,
+            0.7,
+            1
+          ]
+        },
+        {
+          "id": "outer_color",
+          "name": "Outer Glow Colour",
+          "type": "color",
+          "default": [
+            1,
+            0.15,
+            0.5,
+            1
+          ]
+        },
+        {
+          "id": "glow_blend",
+          "name": "Blend Mode",
+          "type": "popup",
+          "default": 0,
+          "options": [
+            "Add",
+            "Screen"
+          ]
+        },
+        {
+          "id": "glow_quality",
+          "name": "Quality",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Fast",
+            "Balanced",
+            "High"
+          ]
+        },
+        {
+          "id": "glow_only",
+          "name": "Glow Only",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "padding",
+          "name": "Extra Bounds (px)",
+          "type": "slider",
+          "default": 160,
+          "min": 0,
+          "max": 512,
+          "decimals": 0
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 15,
+    "pack": "Marsel Prism",
+    "slug": "drop-shadow",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.drop-shadow",
+      "name": "Marsel Drop Shadow",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Alpha-based object shadow with a two-colour gradient, blur and editable bounds.",
+      "params": [
+        {
+          "id": "shadow_opacity",
+          "name": "Shadow Opacity (%)",
+          "type": "slider",
+          "default": 65,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "distance",
+          "name": "Distance (px)",
+          "type": "slider",
+          "default": 18,
+          "min": 0,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "direction",
+          "name": "Direction (degrees)",
+          "type": "slider",
+          "default": 135,
+          "min": -180,
+          "max": 180,
+          "decimals": 2
+        },
+        {
+          "id": "shadow_softness",
+          "name": "Softness (px)",
+          "type": "slider",
+          "default": 12,
+          "min": 0,
+          "max": 150,
+          "decimals": 2
+        },
+        {
+          "id": "spread",
+          "name": "Spread (%)",
+          "type": "slider",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "shadow_only",
+          "name": "Shadow Only",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "gradient_type",
+          "name": "Gradient",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Solid",
+            "Linear",
+            "Radial"
+          ]
+        },
+        {
+          "id": "color_1",
+          "name": "Gradient Colour 1",
+          "type": "color",
+          "default": [
+            0.02,
+            0.02,
+            0.03,
+            1
+          ]
+        },
+        {
+          "id": "color_2",
+          "name": "Gradient Colour 2",
+          "type": "color",
+          "default": [
+            0.08,
+            0.02,
+            0.16,
+            1
+          ]
+        },
+        {
+          "id": "gradient_angle",
+          "name": "Gradient Angle (degrees)",
+          "type": "slider",
+          "default": 90,
+          "min": -180,
+          "max": 180,
+          "decimals": 2
+        },
+        {
+          "id": "gradient_scale",
+          "name": "Gradient Scale (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 1,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "gradient_center_x",
+          "name": "Gradient Centre X (%)",
+          "type": "slider",
+          "default": 50,
+          "min": -100,
+          "max": 200,
+          "decimals": 2
+        },
+        {
+          "id": "gradient_center_y",
+          "name": "Gradient Centre Y (%)",
+          "type": "slider",
+          "default": 50,
+          "min": -100,
+          "max": 200,
+          "decimals": 2
+        },
+        {
+          "id": "padding",
+          "name": "Extra Bounds (px)",
+          "type": "slider",
+          "default": 96,
+          "min": 0,
+          "max": 512,
+          "decimals": 0
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 5,
+    "pack": "Marsel Prism",
+    "slug": "edge-glow",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.move.edge-glow",
+      "name": "Marsel Edge Glow",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Two editable colours for the edge and its brightest glow.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (%)",
+          "type": "slider",
+          "default": 150,
+          "min": 0,
+          "max": 400,
+          "decimals": 2
+        },
+        {
+          "id": "width",
+          "name": "Edge Width (px)",
+          "type": "slider",
+          "default": 2,
+          "min": 0.25,
+          "max": 30,
+          "decimals": 2
+        },
+        {
+          "id": "radius",
+          "name": "Glow Radius (px)",
+          "type": "slider",
+          "default": 3,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "threshold",
+          "name": "Threshold (%)",
+          "type": "slider",
+          "default": 8,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "edge_color",
+          "name": "Edge Colour",
+          "type": "color",
+          "default": [
+            1,
+            0.06,
+            0.45,
+            1
+          ]
+        },
+        {
+          "id": "hot_color",
+          "name": "Bright Glow Colour",
+          "type": "color",
+          "default": [
+            0.05,
+            0.55,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "glow_only",
+          "name": "Glow Only",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "edges",
+          "name": "Edges",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Repeat",
+            "Mirror",
+            "Transparent"
+          ]
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 6,
+    "pack": "Marsel Prism",
+    "slug": "film-grain",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.film-grain",
+      "name": "Marsel Film Grain",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Deterministic animated grain with size, colour and speed controls.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (%)",
+          "type": "slider",
+          "default": 8,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "grain_size",
+          "name": "Grain Size (px)",
+          "type": "slider",
+          "default": 1,
+          "min": 1,
+          "max": 12,
+          "decimals": 2
+        },
+        {
+          "id": "colored",
+          "name": "Colour Grain",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "animate",
+          "name": "Animate",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "rate",
+          "name": "Speed (Hz)",
+          "type": "slider",
+          "default": 24,
+          "min": 0,
+          "max": 60,
+          "decimals": 2
+        },
+        {
+          "id": "phase",
+          "name": "Phase (seconds)",
+          "type": "slider",
+          "default": 0,
+          "min": -10000,
+          "max": 10000,
+          "decimals": 2
+        },
+        {
+          "id": "seed",
+          "name": "Seed",
+          "type": "slider",
+          "default": 1,
+          "min": 0,
+          "max": 65535,
+          "decimals": 0
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 14,
+    "pack": "Marsel Prism",
+    "slug": "jpeg-damage",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.jpeg-damage",
+      "name": "Marsel JPEG Damage",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "JPEG-style 8x8 DCT quantization and chroma subsampling. Bitrate is an estimated visual budget, not file encoding.",
+      "params": [
+        {
+          "id": "jpeg_quality",
+          "name": "Quality (%)",
+          "type": "slider",
+          "default": 35,
+          "min": 1,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "budget_mode",
+          "name": "Quality / Bitrate Mode",
+          "type": "popup",
+          "default": 0,
+          "options": [
+            "Quality",
+            "Estimated Bitrate"
+          ]
+        },
+        {
+          "id": "target_kbps",
+          "name": "Estimated Bitrate Budget (kbps)",
+          "type": "slider",
+          "default": 2000,
+          "min": 32,
+          "max": 100000,
+          "decimals": 0
+        },
+        {
+          "id": "fps",
+          "name": "Frame Rate for Bitrate Estimate",
+          "type": "slider",
+          "default": 30,
+          "min": 1,
+          "max": 120,
+          "decimals": 2
+        },
+        {
+          "id": "chroma",
+          "name": "Chroma Sampling",
+          "type": "popup",
+          "default": 2,
+          "options": [
+            "4:4:4",
+            "4:2:2",
+            "4:2:0"
+          ]
+        },
+        {
+          "id": "quantization",
+          "name": "Quantization Strength (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "chroma_strength",
+          "name": "Chroma Damage (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 13,
+    "pack": "Marsel Prism",
+    "slug": "pixelate",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.pixelate",
+      "name": "Marsel Pixelate",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Block-average or nearest pixelation with grid size, offsets and colour levels.",
+      "params": [
+        {
+          "id": "pixel_width",
+          "name": "Pixel Width (px)",
+          "type": "slider",
+          "default": 12,
+          "min": 1,
+          "max": 256,
+          "decimals": 2
+        },
+        {
+          "id": "pixel_height",
+          "name": "Pixel Height (px)",
+          "type": "slider",
+          "default": 12,
+          "min": 1,
+          "max": 256,
+          "decimals": 2
+        },
+        {
+          "id": "square_pixels",
+          "name": "Square Pixels",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "pixel_method",
+          "name": "Sampling",
+          "type": "popup",
+          "default": 0,
+          "options": [
+            "Average",
+            "Nearest"
+          ]
+        },
+        {
+          "id": "grid_x",
+          "name": "Grid Offset X (px)",
+          "type": "slider",
+          "default": 0,
+          "min": -256,
+          "max": 256,
+          "decimals": 2
+        },
+        {
+          "id": "grid_y",
+          "name": "Grid Offset Y (px)",
+          "type": "slider",
+          "default": 0,
+          "min": -256,
+          "max": 256,
+          "decimals": 2
+        },
+        {
+          "id": "color_levels",
+          "name": "Colour Levels (0 = off)",
+          "type": "slider",
+          "default": 0,
+          "min": 0,
+          "max": 256,
+          "decimals": 0
+        },
+        {
+          "id": "pixel_alpha",
+          "name": "Pixelate Alpha",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 2,
+    "pack": "Marsel Prism",
+    "slug": "rgb-split",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.move.rgb-split",
+      "name": "Marsel RGB Split",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Independent channel offsets, colours and gains; common position, rotation and radial splitting.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "global_x",
+          "name": "All Channels X (px)",
+          "type": "slider",
+          "default": 0,
+          "min": -1000,
+          "max": 1000,
+          "decimals": 2
+        },
+        {
+          "id": "global_y",
+          "name": "All Channels Y (px)",
+          "type": "slider",
+          "default": 0,
+          "min": -1000,
+          "max": 1000,
+          "decimals": 2
+        },
+        {
+          "id": "angle",
+          "name": "Split Direction (degrees)",
+          "type": "slider",
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "decimals": 2
+        },
+        {
+          "id": "split_mode",
+          "name": "Split Mode",
+          "type": "popup",
+          "default": 0,
+          "options": [
+            "Linear",
+            "Radial"
+          ]
+        },
+        {
+          "id": "radial",
+          "name": "Radial Separation (%)",
+          "type": "slider",
+          "default": 2,
+          "min": 0,
+          "max": 40,
+          "decimals": 2
+        },
+        {
+          "id": "red_x",
+          "name": "Red X (px)",
+          "type": "slider",
+          "default": 5,
+          "min": -500,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "red_y",
+          "name": "Red Y (px)",
+          "type": "slider",
+          "default": 0,
+          "min": -500,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "red_gain",
+          "name": "Red Gain (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "red_color",
+          "name": "Red Channel Colour",
+          "type": "color",
+          "default": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "green_x",
+          "name": "Green X (px)",
+          "type": "slider",
+          "default": 0,
+          "min": -500,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "green_y",
+          "name": "Green Y (px)",
+          "type": "slider",
+          "default": 0,
+          "min": -500,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "green_gain",
+          "name": "Green Gain (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "green_color",
+          "name": "Green Channel Colour",
+          "type": "color",
+          "default": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "blue_x",
+          "name": "Blue X (px)",
+          "type": "slider",
+          "default": -5,
+          "min": -500,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "blue_y",
+          "name": "Blue Y (px)",
+          "type": "slider",
+          "default": 0,
+          "min": -500,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "blue_gain",
+          "name": "Blue Gain (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "blue_color",
+          "name": "Blue Channel Colour",
+          "type": "color",
+          "default": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "edges",
+          "name": "Edges",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Repeat",
+            "Mirror",
+            "Transparent"
+          ]
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 16,
+    "pack": "Marsel Prism",
+    "slug": "selective-light",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.selective-light",
+      "name": "Marsel Selective Light",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Positionable elliptical light with feather, a colour gradient and blend modes.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Light Intensity (%)",
+          "type": "slider",
+          "default": 75,
+          "min": 0,
+          "max": 400,
+          "decimals": 2
+        },
+        {
+          "id": "center_x",
+          "name": "Light Centre X (%)",
+          "type": "slider",
+          "default": 50,
+          "min": -100,
+          "max": 200,
+          "decimals": 2
+        },
+        {
+          "id": "center_y",
+          "name": "Light Centre Y (%)",
+          "type": "slider",
+          "default": 40,
+          "min": -100,
+          "max": 200,
+          "decimals": 2
+        },
+        {
+          "id": "light_width",
+          "name": "Light Width (%)",
+          "type": "slider",
+          "default": 65,
+          "min": 1,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "light_height",
+          "name": "Light Height (%)",
+          "type": "slider",
+          "default": 75,
+          "min": 1,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "angle",
+          "name": "Light Rotation (degrees)",
+          "type": "slider",
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "decimals": 2
+        },
+        {
+          "id": "feather",
+          "name": "Feather (%)",
+          "type": "slider",
+          "default": 65,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "falloff",
+          "name": "Falloff",
+          "type": "slider",
+          "default": 1.5,
+          "min": 0.2,
+          "max": 5,
+          "decimals": 2
+        },
+        {
+          "id": "light_blend",
+          "name": "Blend Mode",
+          "type": "popup",
+          "default": 0,
+          "options": [
+            "Add",
+            "Screen",
+            "Colourize",
+            "Darken"
+          ]
+        },
+        {
+          "id": "gradient_type",
+          "name": "Gradient",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Solid",
+            "Linear",
+            "Radial"
+          ]
+        },
+        {
+          "id": "color_1",
+          "name": "Gradient Colour 1",
+          "type": "color",
+          "default": [
+            1,
+            0.75,
+            0.4,
+            1
+          ]
+        },
+        {
+          "id": "color_2",
+          "name": "Gradient Colour 2",
+          "type": "color",
+          "default": [
+            0.15,
+            0.4,
+            1,
+            0.35
+          ]
+        },
+        {
+          "id": "gradient_angle",
+          "name": "Gradient Angle (degrees)",
+          "type": "slider",
+          "default": 90,
+          "min": -180,
+          "max": 180,
+          "decimals": 2
+        },
+        {
+          "id": "gradient_scale",
+          "name": "Gradient Scale (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 1,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "gradient_center_x",
+          "name": "Gradient Centre X (%)",
+          "type": "slider",
+          "default": 50,
+          "min": -100,
+          "max": 200,
+          "decimals": 2
+        },
+        {
+          "id": "gradient_center_y",
+          "name": "Gradient Centre Y (%)",
+          "type": "slider",
+          "default": 50,
+          "min": -100,
+          "max": 200,
+          "decimals": 2
+        },
+        {
+          "id": "light_only",
+          "name": "Light Only",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "respect_alpha",
+          "name": "Respect Object Alpha",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 8,
+    "pack": "Marsel Prism",
+    "slug": "vignette",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.vignette",
+      "name": "Marsel Vignette",
+      "category": "Marsel Prism",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Resizable coloured vignette with centre, feather, shape and inversion.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (%)",
+          "type": "slider",
+          "default": 65,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "vignette_width",
+          "name": "Width (%)",
+          "type": "slider",
+          "default": 80,
+          "min": 1,
+          "max": 250,
+          "decimals": 2
+        },
+        {
+          "id": "vignette_height",
+          "name": "Height (%)",
+          "type": "slider",
+          "default": 80,
+          "min": 1,
+          "max": 250,
+          "decimals": 2
+        },
+        {
+          "id": "center_x",
+          "name": "Centre X (%)",
+          "type": "slider",
+          "default": 50,
+          "min": -100,
+          "max": 200,
+          "decimals": 2
+        },
+        {
+          "id": "center_y",
+          "name": "Centre Y (%)",
+          "type": "slider",
+          "default": 50,
+          "min": -100,
+          "max": 200,
+          "decimals": 2
+        },
+        {
+          "id": "feather",
+          "name": "Feather (%)",
+          "type": "slider",
+          "default": 35,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "shape",
+          "name": "Shape",
+          "type": "popup",
+          "default": 0,
+          "options": [
+            "Ellipse",
+            "Rectangle"
+          ]
+        },
+        {
+          "id": "vignette_color",
+          "name": "Vignette Colour",
+          "type": "color",
+          "default": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "invert",
+          "name": "Invert",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 3,
+    "pack": "Marsel Motion",
+    "slug": "camera-shake",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.move.camera-shake",
+      "name": "Marsel Camera Shake",
+      "category": "Marsel Motion",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Automatic XYZ image-plane shake, rotation, smooth motion and sampled shutter blur.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "shake_x",
+          "name": "X Shake Amplitude (px)",
+          "type": "slider",
+          "default": 12,
+          "min": 0,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "shake_y",
+          "name": "Y Shake Amplitude (px)",
+          "type": "slider",
+          "default": 8,
+          "min": 0,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "shake_z",
+          "name": "Z Shake Amplitude (%)",
+          "type": "slider",
+          "default": 2,
+          "min": 0,
+          "max": 40,
+          "decimals": 2
+        },
+        {
+          "id": "rotation",
+          "name": "Rotation Amplitude (degrees)",
+          "type": "slider",
+          "default": 1.2,
+          "min": 0,
+          "max": 45,
+          "decimals": 2
+        },
+        {
+          "id": "animate",
+          "name": "Animate",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "rate",
+          "name": "Speed (Hz)",
+          "type": "slider",
+          "default": 7,
+          "min": 0,
+          "max": 60,
+          "decimals": 2
+        },
+        {
+          "id": "phase",
+          "name": "Phase (seconds)",
+          "type": "slider",
+          "default": 0,
+          "min": -10000,
+          "max": 10000,
+          "decimals": 2
+        },
+        {
+          "id": "seed",
+          "name": "Seed",
+          "type": "slider",
+          "default": 1,
+          "min": 0,
+          "max": 65535,
+          "decimals": 0
+        },
+        {
+          "id": "smoothness",
+          "name": "Smoothness (%)",
+          "type": "slider",
+          "default": 90,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "auto_zoom",
+          "name": "Fixed Edge Zoom (+6%)",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "edges",
+          "name": "Edges",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Repeat",
+            "Mirror",
+            "Transparent"
+          ]
+        },
+        {
+          "id": "motion_blur",
+          "name": "Motion Blur",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "shutter",
+          "name": "Shutter Angle",
+          "type": "slider",
+          "default": 180,
+          "min": 0,
+          "max": 360,
+          "decimals": 2
+        },
+        {
+          "id": "samples",
+          "name": "Blur Samples",
+          "type": "slider",
+          "default": 8,
+          "min": 2,
+          "max": 16,
+          "decimals": 0
+        },
+        {
+          "id": "fps",
+          "name": "Frame Rate for Blur",
+          "type": "slider",
+          "default": 30,
+          "min": 1,
+          "max": 120,
+          "decimals": 2
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 11,
+    "pack": "Marsel Motion",
+    "slug": "flash",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.color.flash",
+      "name": "Marsel Flash",
+      "category": "Marsel Motion",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Automatic coloured flicker with selectable rhythm, duty cycle and eight programmable beat levels.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "flash_color",
+          "name": "Flash Colour",
+          "type": "color",
+          "default": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "animate",
+          "name": "Animate",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "rate",
+          "name": "Speed (flashes / second)",
+          "type": "slider",
+          "default": 6,
+          "min": 0.05,
+          "max": 40,
+          "decimals": 2
+        },
+        {
+          "id": "phase",
+          "name": "Phase (seconds)",
+          "type": "slider",
+          "default": 0,
+          "min": -10000,
+          "max": 10000,
+          "decimals": 2
+        },
+        {
+          "id": "duty",
+          "name": "Flash Duration (% of beat)",
+          "type": "slider",
+          "default": 45,
+          "min": 1,
+          "max": 99,
+          "decimals": 2
+        },
+        {
+          "id": "softness",
+          "name": "Fade / Softness (%)",
+          "type": "slider",
+          "default": 10,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "rhythm",
+          "name": "Rhythm",
+          "type": "popup",
+          "default": 0,
+          "options": [
+            "1: Equal",
+            "1 2: Strong / Weak",
+            "1 2 3: Descending",
+            "Custom"
+          ]
+        },
+        {
+          "id": "steps",
+          "name": "Custom Beat Count",
+          "type": "slider",
+          "default": 4,
+          "min": 1,
+          "max": 8,
+          "decimals": 0
+        },
+        {
+          "id": "beat_1",
+          "name": "Beat 1 Strength (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "beat_2",
+          "name": "Beat 2 Strength (%)",
+          "type": "slider",
+          "default": 40,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "beat_3",
+          "name": "Beat 3 Strength (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "beat_4",
+          "name": "Beat 4 Strength (%)",
+          "type": "slider",
+          "default": 20,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "beat_5",
+          "name": "Beat 5 Strength (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "beat_6",
+          "name": "Beat 6 Strength (%)",
+          "type": "slider",
+          "default": 60,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "beat_7",
+          "name": "Beat 7 Strength (%)",
+          "type": "slider",
+          "default": 80,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "beat_8",
+          "name": "Beat 8 Strength (%)",
+          "type": "slider",
+          "default": 20,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 4,
+    "pack": "Marsel Motion",
+    "slug": "fragment-glitch",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.move.fragment-glitch",
+      "name": "Marsel Fragment Glitch",
+      "category": "Marsel Motion",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Animated fragments of the source image with subtle displacement; no external images required.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (%)",
+          "type": "slider",
+          "default": 75,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "density",
+          "name": "Fragment Density (%)",
+          "type": "slider",
+          "default": 40,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "block_width",
+          "name": "Fragment Width (px)",
+          "type": "slider",
+          "default": 90,
+          "min": 4,
+          "max": 1000,
+          "decimals": 2
+        },
+        {
+          "id": "block_height",
+          "name": "Fragment Height (px)",
+          "type": "slider",
+          "default": 16,
+          "min": 1,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "shift_x",
+          "name": "Horizontal Shift (px)",
+          "type": "slider",
+          "default": 18,
+          "min": 0,
+          "max": 500,
+          "decimals": 2
+        },
+        {
+          "id": "shift_y",
+          "name": "Vertical Shift (px)",
+          "type": "slider",
+          "default": 3,
+          "min": 0,
+          "max": 250,
+          "decimals": 2
+        },
+        {
+          "id": "glitch_style",
+          "name": "Style",
+          "type": "popup",
+          "default": 0,
+          "options": [
+            "Fragments",
+            "Horizontal Tears",
+            "Digital Blocks"
+          ]
+        },
+        {
+          "id": "chromatic",
+          "name": "Channel Separation (px)",
+          "type": "slider",
+          "default": 1,
+          "min": 0,
+          "max": 30,
+          "decimals": 2
+        },
+        {
+          "id": "luma_flicker",
+          "name": "Luminance Flicker (%)",
+          "type": "slider",
+          "default": 8,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "scanlines",
+          "name": "Scanlines (%)",
+          "type": "slider",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "animate",
+          "name": "Animate",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "rate",
+          "name": "Speed (Hz)",
+          "type": "slider",
+          "default": 10,
+          "min": 0,
+          "max": 60,
+          "decimals": 2
+        },
+        {
+          "id": "phase",
+          "name": "Phase (seconds)",
+          "type": "slider",
+          "default": 0,
+          "min": -10000,
+          "max": 10000,
+          "decimals": 2
+        },
+        {
+          "id": "seed",
+          "name": "Seed",
+          "type": "slider",
+          "default": 1,
+          "min": 0,
+          "max": 65535,
+          "decimals": 0
+        },
+        {
+          "id": "edges",
+          "name": "Edges",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Repeat",
+            "Mirror",
+            "Transparent"
+          ]
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": 12,
+    "pack": "Marsel Motion",
+    "slug": "shake",
+    "manifest": {
+      "api": 1,
+      "id": "org.marsel.move.shake",
+      "name": "Marsel Shake",
+      "category": "Marsel Motion",
+      "version": "2.2.0",
+      "author": "Marsel",
+      "description": "Independent Amount/Frequency shake with random and wave components; original implementation.",
+      "params": [
+        {
+          "id": "amount",
+          "name": "Amount (px)",
+          "type": "slider",
+          "default": 14,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "rate",
+          "name": "Frequency (Hz)",
+          "type": "slider",
+          "default": 8,
+          "min": 0,
+          "max": 60,
+          "decimals": 2
+        },
+        {
+          "id": "shake_x",
+          "name": "X Amplitude (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "shake_y",
+          "name": "Y Amplitude (%)",
+          "type": "slider",
+          "default": 75,
+          "min": 0,
+          "max": 300,
+          "decimals": 2
+        },
+        {
+          "id": "shake_z",
+          "name": "Z / Zoom Amplitude (%)",
+          "type": "slider",
+          "default": 0.8,
+          "min": 0,
+          "max": 20,
+          "decimals": 2
+        },
+        {
+          "id": "rotation",
+          "name": "Tilt Amplitude (degrees)",
+          "type": "slider",
+          "default": 0.5,
+          "min": 0,
+          "max": 20,
+          "decimals": 2
+        },
+        {
+          "id": "random_mix",
+          "name": "Random Shake (%)",
+          "type": "slider",
+          "default": 80,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "wave_mix",
+          "name": "Wave Shake (%)",
+          "type": "slider",
+          "default": 20,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "smoothness",
+          "name": "Smoothness (%)",
+          "type": "slider",
+          "default": 70,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        },
+        {
+          "id": "animate",
+          "name": "Animate",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "phase",
+          "name": "Phase (seconds)",
+          "type": "slider",
+          "default": 0,
+          "min": -10000,
+          "max": 10000,
+          "decimals": 2
+        },
+        {
+          "id": "seed",
+          "name": "Seed",
+          "type": "slider",
+          "default": 1,
+          "min": 0,
+          "max": 65535,
+          "decimals": 0
+        },
+        {
+          "id": "auto_zoom",
+          "name": "Fixed Edge Zoom (+6%)",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "edges",
+          "name": "Edges",
+          "type": "popup",
+          "default": 1,
+          "options": [
+            "Repeat",
+            "Mirror",
+            "Transparent"
+          ]
+        },
+        {
+          "id": "motion_blur",
+          "name": "Motion Blur",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "shutter",
+          "name": "Shutter Angle",
+          "type": "slider",
+          "default": 180,
+          "min": 0,
+          "max": 360,
+          "decimals": 2
+        },
+        {
+          "id": "samples",
+          "name": "Blur Samples",
+          "type": "slider",
+          "default": 8,
+          "min": 2,
+          "max": 16,
+          "decimals": 0
+        },
+        {
+          "id": "fps",
+          "name": "Frame Rate for Blur",
+          "type": "slider",
+          "default": 30,
+          "min": 1,
+          "max": 120,
+          "decimals": 2
+        },
+        {
+          "id": "mix",
+          "name": "Mix (%)",
+          "type": "slider",
+          "default": 100,
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      ]
+    }
+  }
+]

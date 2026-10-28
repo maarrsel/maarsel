@@ -1,0 +1,31 @@
+{
+  "pluginCount": 17,
+  "backup": "C:\\Users\\prost\\Documents\\Codex\\2026-10-28\\n\\work\\prism-motion-backup-20261028-160739",
+  "filmcraftPresets": 17,
+  "plugins": [
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-streak.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-bloom.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-blur.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-color-correction.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-deep-glow.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-drop-shadow.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-edge-glow.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-film-grain.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-jpeg-damage.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-pixelate.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-rgb-split.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-selective-light.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-prism-vignette.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-motion-camera-shake.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-motion-flash.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-motion-fragment-glitch.wasm",
+    "C:\\Users\\prost\\AppData\\Roaming\\EffectCraft\\Plug-ins\\marsel-motion-shake.wasm"
+  ],
+  "preservedOtherPresets": 0,
+  "version": "2.2.0",
+  "categories": {
+    "Marsel Prism": 13,
+    "Marsel Motion": 4
+  },
+  "idsPreserved": true
+}
