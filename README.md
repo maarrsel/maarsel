@@ -1,29 +1,135 @@
-# 👋 Welcome!
+# ✦ MARSEL FX
 
-Hey everyone! I've decided to create these plugins using **vibe coding**. I believe they can make video editing easier, faster, and more enjoyable.
+**Creative effects for editors who want more.**
 
-I'll be **regularly updating and improving** these plugins, adding new features, fixing bugs, and making them better over time.
+Free and open-source effects for **EffectCraft** and presets for **FilmCraft**.
 
-### 💡 Ideas, Suggestions & Bug Reports
+[![Version](https://img.shields.io/badge/version-2.2.0-8B5CF6?style=for-the-badge)](https://github.com/maarrsel/maarsel)
+[![License](https://img.shields.io/badge/license-MIT-171717?style=for-the-badge)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/maarrsel/maarsel?style=for-the-badge&color=8B5CF6)](https://github.com/maarrsel/maarsel/stargazers)
 
-If you have any ideas for new plugins, suggestions for improvements, or encounter any bugs or issues, feel free to contact me on Discord!
+**English** | [Русский](README.ru.md)
 
-**💬 Discord:** `highroller_player`
+---
 
-I'm always open to feedback and new ideas!
+## ✦ About the Project
 
-### ❤️ Support the Development
+Welcome to **Marsel FX**, a collection of creative video effects built to make editing more flexible, accessible, and enjoyable.
 
-All my plugins are **completely free**, and I plan to keep them that way!
+The project is developed using AI-assisted coding, creative experimentation, and continuous improvements.
 
-If you enjoy my work and would like to support me, you can leave a donation through **GitHub Sponsors**.
+The goal is simple: **powerful creative tools should be accessible to everyone.**
 
-**100% of the money I receive will go toward AI subscriptions and tools that help me develop, improve, and release even more plugins for everyone.**
+- 🎨 17 effects in the current collection
+- ✨ Two dedicated effect packs
+- ⚡ Customizable parameters
+- 🛠️ Ongoing development and improvements
+- 💜 Free and open-source
 
-Even a small donation would mean a lot and help me continue working on this project!
+## ✦ Explore the Packs
 
-### ❤️ Thank You!
+### 💎 MARSEL PRISM
 
-A huge thank you to everyone who decides to try out my plugins, share their ideas, report bugs, or support the development.
+**Light. Color. Texture. Atmosphere.**
 
-**Your support means a lot to me! ❤️**
+A collection of 13 visual effects for cinematic looks, image processing, and creative styling.
+
+| Effect | Description |
+|---|---|
+| Anamorphic Streak | Horizontal cinematic light streaks |
+| Bloom | Soft highlight glow |
+| Blur | Gaussian, box, and directional blur |
+| Color Correction | Exposure, contrast, color, and tonal adjustments |
+| Deep Glow | Multi-scale glow with customizable falloff |
+| Drop Shadow | Adjustable shadows and gradients |
+| Edge Glow | Glowing outlines and highlights |
+| Film Grain | Film-inspired grain and texture |
+| JPEG Damage | Compression-style image degradation |
+| Pixelate | Pixel-based image stylization |
+| RGB Split | Independent RGB channel displacement |
+| Selective Light | Localized lighting and gradient controls |
+| Vignette | Customizable edge darkening and color |
+
+### ⚡ MARSEL MOTION
+
+**Movement. Energy. Impact.**
+
+Four effects designed for dynamic editing, motion, and visual transitions.
+
+| Effect | Description |
+|---|---|
+| Camera Shake | Automated camera-style movement |
+| Shake | Customizable motion and vibration |
+| Fragment Glitch | Animated digital fragmentation |
+| Flash | Rhythm-based color flashes |
+
+## ✦ Effect Previews
+
+### Camera Shake
+
+![Camera Shake Preview](camera-shake-preview.gif)
+
+### Fragment Glitch
+
+![Fragment Glitch Preview](fragment-glitch-preview.gif)
+
+### Flash
+
+![Flash Preview](flash-preview.gif)
+
+Additional visual comparisons and preview files are available in this repository.
+
+## ✦ Installation & Compatibility
+
+**EffectCraft:** The collection includes 17 custom WASM effects.
+
+**FilmCraft:** The collection also includes 17 presets based on FilmCraft's built-in effects. Their capabilities may differ from the custom EffectCraft versions.
+
+See [README.ru.md](README.ru.md) for more information about the current version, technical details, and compatibility notes.
+
+Please note that compatibility can depend on the application version and available plugin support.
+
+## ✦ Updates & Development
+
+Marsel FX is an evolving project.
+
+Future updates may include new effects, expanded controls, performance improvements, bug fixes, and additional creative tools.
+
+**Current collection: v2.2.0**
+
+Follow the repository to keep up with future releases.
+
+## ✦ Ideas, Suggestions & Bug Reports
+
+Have an idea for a new effect? Found a bug? Want to suggest an improvement?
+
+Your feedback is welcome!
+
+- [Open a GitHub Issue](https://github.com/maarrsel/maarsel/issues)
+- **Discord:** `highroller_player`
+
+Feel free to share feature requests, bug reports, or ideas for future packs.
+
+## ✦ Support the Project
+
+**Marsel FX is free, and I intend to keep it that way.**
+
+If you enjoy using these effects and want to support future development, you can help by starring the repository, sharing the project, or supporting me through GitHub Sponsors.
+
+Donations will go toward AI subscriptions and development tools that help me create and improve more plugins.
+
+Every contribution is appreciated, but support is always optional.
+
+## ✦ License & Credits
+
+Distributed under the [MIT License](LICENSE).
+
+See [ATTRIBUTION.md](ATTRIBUTION.md) for applicable credits and attributions.
+
+## ✦ Thank You
+
+Thank you to everyone who tries the effects, shares feedback, reports bugs, or supports this project.
+
+**Made with creativity, experimentation, and a lot of iteration.**
+
+*— Marsel*
