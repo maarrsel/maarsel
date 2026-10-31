@@ -1,12 +1,3 @@
-
-<div align="center">
-  <img src="marsel-banner.png" alt="Marsel FX Banner" width="100%">
-</div>
-
-# ✦ MARSEL FX
-
-Creative effects for editors who want more.
-
 # ✦ MARSEL FX
 
 **Creative effects for editors who want more.**
